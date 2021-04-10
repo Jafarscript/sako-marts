@@ -52,9 +52,19 @@
 
 .target{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
 }
-.target .right{} /* Changing the font and size */
+.target .right{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} /* Changing the font and size */
+.target .right h3{
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 7px;
+}
+.target .right h5{
+    font-weight: 200;
+}
 
 .target i{
     border: 1px transparent;
@@ -62,7 +72,7 @@
     background-color: rgb(248, 247, 247);
     border-radius: 50%;
     font-size: 25px;
-    margin-right: 25px;
+    margin-right: 24px;
     color: rgb(71, 70, 70);
 }
 .product{
@@ -72,24 +82,39 @@
 
 .listed{
     border-right: 0.4px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 25px;
 }
 .listed ul{
     list-style: none;
-    margin: 30px a auto 150px;
+    padding-left: 150px;
+
 }
 .listed ul li{
     margin-bottom: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 450;
+    font-size: 16px;
+    padding-right: 100px;
+    margin-bottom: 15px;   
 }
 .listed ul .first{
     color: rgb(41, 108, 235);
+    border-right: 3px solid rgb(41, 108, 235);
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .listed h4{
     list-style: none;
-    margin: 20px auto auto 150px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
     color: rgb(41, 108, 235);
+}
+
+.boxes{
+    margin-top: 20px;
 }
