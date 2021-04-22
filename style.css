@@ -9,6 +9,7 @@
 .title{
     background: rgb(41, 108, 235);
     padding: 12px 150px;
+    width: 100%;
 }
 .title p{
     color: white;
@@ -242,4 +243,31 @@
 .cen .text2{
     font-size: 14px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.custom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 350px;
+    text-align: center;
+    background: rgb(3, 85, 238);
+}
+
+.custom p img{
+    width: 40px;
+    height: 40px;
+}
+
+.custom h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.last{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
 }
