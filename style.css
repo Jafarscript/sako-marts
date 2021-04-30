@@ -319,3 +319,53 @@
     position: absolute;
     color: rgb(71, 70, 70);
 }
+
+.sticker{
+    position: fixed;
+    bottom: 10px;
+    display: flex;
+    left: 5px;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.sticker .let{
+    padding: 10px 15px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 0.1px solid grey;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.sticker div .firt{
+    padding: 10px 15px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 0.1px solid grey;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.sticker div .sec{
+    padding: 10px 15px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 0.1px solid grey;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.sticker h6 i{
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.sticker div .let:hover{
+    color: hotpink;
+    bottom: 2px;
+}
