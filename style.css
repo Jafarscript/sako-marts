@@ -259,7 +259,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 350px;
+    padding: 50px 400px;
     text-align: center;
     background: rgb(41, 108, 235);
 }
@@ -269,11 +269,11 @@
     height: 40px;
 }
 
-.custom p i{
+/* .custom p i{
     font-size: 40px;
     color: rgb(247, 247, 72);
     margin-bottom: 5px;
-}
+} */
 
 .custom h4{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
