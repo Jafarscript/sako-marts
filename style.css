@@ -415,10 +415,11 @@ header p span{
         font-weight: bolder;
     }
     .target i{
-        font-size: 15px;
+        /*font-size: 15px;
         padding: 0px 6px;
         border-radius: 2px;
-        text-align: center; 
+        text-align: center;*/
+        dispay: none; 
     }
     .fixediv ul li{
         font-size: 10px;
