@@ -6,19 +6,19 @@
 
 .headpage{}
 
-.title{
+header{
     background: rgb(41, 108, 235);
     padding: 12px 150px;
     width: 100%;
 }
-.title p{
+header p{
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14px;
     font-weight: 400;
 }
 
-.title p span{
+header p span{
     font-weight: 500;
 }
 
@@ -55,7 +55,7 @@
 .search{
     position: absolute;
     left: 31%;
-    top: 20%;
+    top: 85%;
 }
 .search input::-webkit-input-placeholder{
     color: grey;
@@ -71,7 +71,7 @@
 .search input{
     /* padding: 0px 10px; */
     padding: 10px;
-    width: 490px;
+    width: 470px;
     border-radius: 5px 0px 0px 5px;
     position: relative;
     font-size: 15px;
@@ -84,7 +84,7 @@
 }
 .search i{
     position: absolute;
-    left: 95%;
+    left: 100%;
     cursor: pointer;
     top: -50%;
     margin-top: 20px;
@@ -195,6 +195,7 @@
     flex-direction: row;
     width: 550px;
     margin-top: 20px;
+    position: relative;
 }
 
 .box1{
@@ -225,8 +226,9 @@
     position: relative;
 }
 .box button{
-    align-self: flex-end;
+    /* align-self: flex-end; */
     /* justify-self: last baseline; */
+    position: absolute;
     padding: 2px 10px;
     border: 1px solid rgb(41, 108, 235);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -236,6 +238,8 @@
     border-radius: 3px;
     outline: none;
     cursor: pointer;
+    right: 0;
+    bottom: 0;
 }
 .box button i{
     font-weight: 600;
@@ -389,5 +393,175 @@
 .sticker div h6 i{
     margin-right: 10px;
     font-size: 15px;
+}
+
+@media (max-width: 926px){
+    header{
+        padding: 12px 20px;
+        width: 100%;
+        overflow: hidden;
+    }
+    header p{
+        font-size: 12px;
+    }
+    .fixediv{
+        padding: 20px;
+    }
+    .target .right h3{
+        font-size: 13px;
+    }
+    .target .right h5{
+        font-size: 8px;
+        font-weight: bolder;
+    }
+    .target i{
+        font-size: 15px;
+        padding: 0px 6px;
+        border-radius: 2px;
+        text-align: center; 
+    }
+    .fixediv ul li{
+        font-size: 10px;
+        margin-left: 9px;
+    }
+    .fixediv ul li i{
+        font-size: 15px;
+        text-align: center;
+        margin-right: 4px;
+    }
+    .goods{
+        padding: 20px;
+        display: flex;
+    }
+    .items{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .custom{
+        padding: 20px;
+    }
+    .custom p img{
+        width: 25px;
+        height: 25px;
+    }
+    .custom h4{
+        font-size: 13px;
+    }
+    .last{
+        padding-top: 20px;
+    }
+    .last h5{
+        font-size: 11px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    .last h3{
+        font-size: 16px;
+    }
+    .last h6{
+        font-size: 10px;
+    }
+    .sticker div h6{
+        padding: 5px 5px;
+        font-size: 10px;
+        font-weight: 900;
+    }
+    .sticker div h6 i{
+        font-size: 12px;
+        margin-right: 2px;
+    }
+    .itemImg img{
+        width: 250px;
+        height: 250px;
+    }
+    .info h4{
+        text-align: center;
+    }
+    .info h5{
+        margin-bottom: 15px;
+    }
+    .btn{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .btn button{
+        padding: 9px 13px;
+        font-size: 13px;
+    }
+    .listed{
+        text-align: center;
+        border-right: none;
+    }
+    .listed ul li{
+        padding-right: 0px;
+        font-size: 12px;
+    }
+    .listed h4{
+        font-size: 12px;
+    }
+
+    .btn .btn2{
+        padding: 11px 20px;
+    }
+    .search{
+        text-align: center;
+    }
+    .search input{
+        width: 200px;
+        font-size: 12px;
+        padding: 5px;
+    }
+    .search i{
+        font-size: 16px;
+        padding: 5px;
+        top: -75%;
+    }
+    .product{
+        padding: 1px 20px;
+    }
+    .mainp{
+        grid-template-columns: 1fr;
+    }
+    .boxes{
+        padding: 20px;
+        border-right: none;
+    }
+    .box{
+        width: 100%;
+    }
+    .text img{
+        width: 40px;
+        height: 50px;
+    }
+    .text h5{
+        font-size: 11px;
+    }
+    .text h4{
+        font-size: 12px;
+    }
+    .text s{
+        font-size: 10px;
+    }
+    .box button{
+        font-size: 10px;
+    }
+    .boxes h3{
+        font-size: 15px;
+    }
+    .add h3{
+        font-size: 15px;
+    }
+    .cen .icon{
+        font-size: 50px;
+    }
+    .cen h4{
+        font-size: 13px;
+    }
+    .cen .text2{
+        font-size: 12px;
+    }
+    .add{
+        margin-bottom: 30px;
+    }
 }
 
